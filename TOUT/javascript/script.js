@@ -71,7 +71,7 @@ const bouton = document.querySelector("#lo");
          
              <td data-title="prixProduit">${boutique.prixProduit}  </td>
              <td data-title="date">${boutique.date}</td>
-              <td data-title="renduJournee">${boutique.renduJournee} </td>
+              <td data-title="renduJournee">${boutique.eppargne} </td>
               <td data-title="MODIFICATION" ><div class="chance"><i class="edite" id="delete-${boutique.index}"></i><i class="delete" onclick="deleteItem(${boutique.index})">Supprimer</i></div></td>
          </tr>`;  
         
