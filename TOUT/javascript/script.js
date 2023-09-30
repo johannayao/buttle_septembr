@@ -17,21 +17,21 @@ const bouton = document.querySelector("#lo");
  bouton.addEventListener("click" , (e)=>{
    e.preventDefault();
   
-   const prixAchat = document.querySelector("#prixAchat");
-   const  perte= document.querySelector("#perte");
+//    const prixAchat = document.querySelector("#prixAchat");
+//    const  perte= document.querySelector("#perte");
    const prixProduit = document.querySelector("#prixProduit");
    const date = document.querySelector("#date");
   
    const eppargne = document.querySelector("#eppargne");
-   const renduJournee = document.querySelector("#renduJournee");
+//    const renduJournee = document.querySelector("#renduJournee");
   
    let information ={
      date:(date.value),
-     prixAchat: (prixAchat.value),
-     perte : parseInt(perte.value),
+    //  prixAchat: (prixAchat.value),
+    //  perte : parseInt(perte.value),
      prixProduit:(prixProduit.value),
      eppargne:(eppargne.value),
-     renduJournee : (renduJournee.value)
+    //  renduJournee : (renduJournee.value)
    }
    console.log(information);
 
@@ -68,9 +68,7 @@ const bouton = document.querySelector("#lo");
       
          console.log(boutique);
          tout += `<tr id="${boutique.index}">
-         <td data-title="prixAchat">${boutique.prixAchat} </td>
-              <td data-title="benefice">${boutique.renduJournee} </td>
-              <td data-title="eppargne"> ${boutique.eppargne}</td>
+         
              <td data-title="prixProduit">${boutique.prixProduit}  </td>
              <td data-title="date">${boutique.date}</td>
               <td data-title="renduJournee">${boutique.renduJournee} </td>

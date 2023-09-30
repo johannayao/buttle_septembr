@@ -42,7 +42,7 @@
 }
 .box2{
      width: 520px; 
-    height: 600Px;
+    height: auto;
     
     background-color: #e9f8ff;
 }
@@ -194,6 +194,7 @@ form{
 .form{
     text-align: center;
     margin: 0 auto;
+   
    }
    input{
     width: 92%;
