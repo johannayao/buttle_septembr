@@ -39,7 +39,7 @@ butIns.addEventListener('click', () =>{
    // window.location.reload()
    
    localStorage.setItem('userList', JSON.stringify(tabUser))
-   window.location.href="../../corporates/connexion.html"
+   window.location.href="../../HTML/connexion.html"
 })
 
 
